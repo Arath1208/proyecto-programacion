@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+        <title>Principal</title>
+    </head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body> 
+       
+        <center style="font-family: Arial, Helvetica, sans-serif;border: 10px solid orange;">
+            XAM
+        </center>
+        <h2></h2>
+        <section style="float:left;">
+           <center>
+            Caja
+            <input type="number"placeholder=" Ingresa Dinero"><br><br>
+           </center>
+        <img src="C:\Users\luisr\Downloads\grafica-de-barras.webp" alt="">
+        <center>
+            <button id="venta" onclick="ventas()">Venta</button>
+        </center>
+        
+
+
+
+        </section>
+        <section style="float:right">
+            <center>
+                Gasto
+                <input type="number"placeholder=" Ingresa Dinero"><br><br>
+               </center>
+            <img src="C:\Users\luisr\Downloads\grafica-de-barras.webp"  alt="">
+            <center>
+                <button id="Gastos" onclick="gastos()">Gastos</button>
+            </center>
+        </section>
+        <script>
+             function ventas(){
+                window.location.href="Ventas.html";
+            }
+            function gastos(){
+                window.location.href="Gastos_v.html";
+            }
+        </script>
+    </body>
+</html>>
